@@ -28,5 +28,3 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Execute jar file
       run: sudo kill -9 `sudo lsof -t -i:80` & sudo java -jar /home/ec2-user/actions-runner/_work/springci/springci/target/springci-0.0.1-SNAPSHOT.jar &
-
-
