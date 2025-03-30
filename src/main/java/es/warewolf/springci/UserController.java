@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String hello() {
-        return "<h1>Hello World</h1>";
+        return "<h1>Hello World 2025</h1>";
     }
 }
